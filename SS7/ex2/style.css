@@ -1,0 +1,64 @@
+.nav-menu{
+    display: flex;
+    background-color:peru;
+    height: 30px;
+    justify-content: center;
+    margin: -8px;
+    margin-left: -8px;
+}
+
+/* aaaaaaaaaaaaaaaaaaaaaa */
+.nav-menu div:hover{
+    background-color:lightcoral;
+    width: 120px;
+}
+.item{
+    position: relative;
+    width: 120px;
+    text-align: center;
+}
+
+.item:hover .sub-menu{
+    display: block;
+    background-color: lightsalmon;
+}
+.sub-menu{
+    width: 120px;
+    display: none;
+    background-color:lightsalmon;
+    position: absolute;
+    top: 30px;
+    left:0;
+}
+
+.item-1:hover .sub-menu-1{
+    background-color:palevioletred;
+    display: block;
+    left: 120px;
+    top:55px;
+}
+.sub-menu-1{
+    width: 120px;
+    display:none;
+    background-color: plum;
+    position: absolute;
+}
+
+.item-2:hover .sub-menu-2{
+    background-color:lightpink;
+    display:block;
+    left: 120px;
+    top:55px;
+}
+.sub-menu-2{
+    display: none;
+    position: absolute;
+    width: 120px;
+}
+
+
+
+
+
+
+

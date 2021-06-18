@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="timer">
+            <input id="countInp" class="form-control count" type="text" value="20" min ="0" step="1">
+            <button id="startBtn" class="btn btn-success">Start</button>
+            <button id="stopBtn" disabled class="btn btn-danger">Stop</button>
+            <div id ="status" class="status">0</div>
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

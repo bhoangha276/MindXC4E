@@ -1,0 +1,15 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
